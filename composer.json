@@ -1,0 +1,33 @@
+{
+    "name": "michaelkaefer/table-bundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../table"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Project Contributors",
+            "homepage": "https://github.com/michaelKaefer/TableBundle/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=8.4",
+        "michaelkaefer/table": "0.x-dev",
+        "symfony/framework-bundle": "8.2.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "MichaelKaefer\\TableBundle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MichaelKaefer\\TableBundle\\Tests\\": "tests"
+        }
+    }
+}
