@@ -86,7 +86,7 @@ return static function (ContainerConfigurator $container) {
 
         ->alias(RendererInterface::class, TwigRenderer::class)
 
-        ->set(TableExtension::class)
+        ->set('table.twig.extension', TableExtension::class)
             ->autowire()
             ->tag('twig.extension')
     ;
