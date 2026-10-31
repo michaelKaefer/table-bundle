@@ -24,5 +24,10 @@
         "psr-4": {
             "MichaelKaefer\\TableBundle\\Tests\\": "tests"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-0.x": "0.1.x-dev"
+        }
     }
 }
