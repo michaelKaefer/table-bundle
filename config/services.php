@@ -2,7 +2,6 @@
 
 namespace Symfony\Component\DependencyInjection\Loader\Configurator;
 
-use MichaelKaefer\AdminUiBundle\Twig\VersionExtension;
 use MichaelKaefer\Table\Accessor;
 use MichaelKaefer\Table\AccessorInterface;
 use MichaelKaefer\Table\CellViewFactory;
