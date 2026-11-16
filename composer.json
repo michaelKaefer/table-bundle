@@ -3,7 +3,6 @@
     "description": "Bundle to use michaelkaefer/table in Symfony apps",
     "license": "MIT",
     "type": "symfony-bundle",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Project Contributors",
